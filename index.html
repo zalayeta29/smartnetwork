@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartNetwork TJKT | Solusi Jaringan Komputer Modern & Terpercaya</title>
+  <meta name="description" content="SmartNetwork TJKT menghadirkan informasi, solusi, dan teknologi jaringan komputer modern meliputi LAN, Wi-Fi, MikroTik, Cisco, server, keamanan jaringan, dan monitoring telemetri di SMKN 2 Surakarta.">
+  <meta name="keywords" content="SmartNetwork, TJKT, SMKN 2 Surakarta, Teknik Jaringan Komputer, LAN, WiFi, MikroTik, Cisco, Subnetting, Network Monitoring, IP Calculator">
+  <meta name="author" content="SmartNetwork TJKT Team">
+  <meta name="theme-color" content="#070a14">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SmartNetwork TJKT | Solusi Jaringan Komputer Modern">
+  <meta property="og:description" content="Platform informasi dan layanan teknologi jaringan komputer modern yang dikembangkan secara profesional oleh siswa TJKT SMKN 2 Surakarta.">
+  <meta property="og:url" content="http://localhost:3000/">
+  <meta property="og:image" content="/assets/images/hero-network.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300f0ff' stroke-width='2'><path d='M12 2L2 7l10 5 10-5-10-5z'/><path d='M2 17l10 5 10-5'/><path d='M2 12l10 5 10-5'/></svg>">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+
+  <!-- High-Tech Entrance Preloader Animation -->
+  <div id="preloader-screen" class="preloader-screen" role="status" aria-label="Loading SmartNetwork TJKT">
+    <div class="preloader-content">
+      <div class="preloader-logo">
+        <div class="logo-icon-lg">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+      </div>
+      <div class="preloader-brand">
+        <span class="text-gradient">SmartNetwork</span>
+        <span class="logo-badge">TJKT</span>
+      </div>
+      <div class="preloader-bar-box">
+        <div class="preloader-bar-fill" id="preloader-progress-fill"></div>
+      </div>
+      <div class="preloader-info">
+        <span class="preloader-ticker" id="preloader-status-ticker">Initializing Network Protocol...</span>
+        <span class="preloader-percentage" id="preloader-progress-text">0%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Background Lighting Orbs & Grid Overlay -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+  <div class="glow-orb-1" aria-hidden="true"></div>
+  <div class="glow-orb-2" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       HEADER & STICKY NAVBAR
+       ========================================================================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="SmartNetwork TJKT Home">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <span>SmartNetwork</span>
+        <span class="logo-badge">TJKT</span>
+      </a>
+
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#services" class="nav-link">Layanan</a></li>
+          <li><a href="#tech" class="nav-link">Teknologi</a></li>
+          <li><a href="#topology" class="nav-link">Topologi</a></li>
+          <li><a href="#monitoring" class="nav-link">Monitoring</a></li>
+          <li><a href="#tools" class="nav-link">Tools</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#tutorials" class="nav-link">Tutorial</a></li>
+          <li><a href="#planning" class="nav-link">Kalkulator</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Ganti Mode Tema Dark/Light" title="Ganti Mode Tema">☀️</button>
+        <button class="btn btn-secondary btn-sm login-trigger-btn">Login</button>
+        <a href="#contact" class="btn btn-primary btn-sm">Mulai Konsultasi</a>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Buka Menu Navigasi Mobile" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <!-- ==========================================================================
+         1. HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="badge-tag">
+              <span>NETWORK INFRASTRUCTURE • TJKT</span>
+            </div>
+            <h1 class="text-gradient">SmartNetwork TJKT</h1>
+            <p class="hero-desc">
+              Solusi jaringan komputer modern untuk membangun konektivitas yang cepat, stabil, aman, dan efisien. Didesain dan dikelola profesional oleh talenta TJKT.
+            </p>
+            <div class="hero-cta">
+              <a href="#about" class="btn btn-primary">Jelajahi SmartNetwork ➔</a>
+              <a href="#services" class="btn btn-secondary">Lihat Layanan</a>
+            </div>
+
+            <!-- Stats Counters -->
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-num text-cyan" data-target="10" data-suffix="+">0+</span>
+                <span class="stat-label">Network Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num text-cyan" data-target="99.9" data-suffix="%">0%</span>
+                <span class="stat-label">Network Stability</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num text-cyan" data-target="24" data-suffix="/7">0/7</span>
+                <span class="stat-label">Real-time Monitoring</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num text-cyan" data-target="100" data-suffix="%">0%</span>
+                <span class="stat-label">Secure Infrastructure</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right Professional Network Photo Visual -->
+          <div class="hero-visual-container">
+            <div class="hero-image-card">
+              <div class="hero-img-badge-top">
+                <span>⚡ NETWORK INFRASTRUCTURE</span>
+              </div>
+              <div class="hero-image-wrapper">
+                <img src="/assets/images/hero-network.png" alt="Instalasi Jaringan Server Rack SmartNetwork TJKT" loading="eager">
+                <div class="hero-image-overlay"></div>
+              </div>
+              <div class="hero-img-badge-bottom">
+                <span style="color: var(--accent-cyan);">📡</span>
+                <span>SmartNetwork TJKT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. ABOUT SECTION
+         ========================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <div class="badge-tag">TENTANG KAMI</div>
+            <h2 style="font-size: 2.5rem; margin: 0.75rem 0 1.25rem 0;">Apa Itu SmartNetwork TJKT?</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 1.25rem; font-size: 1.05rem;">
+              <strong>SmartNetwork TJKT</strong> merupakan platform informasi dan layanan teknologi jaringan yang menghadirkan solusi instalasi, konfigurasi, keamanan, dan pengelolaan jaringan komputer secara modern, efektif, dan terpercaya.
+            </p>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+              Dikembangkan oleh siswa dan teknisi berbakat dari jurusan <strong>Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</strong> di SMKN 2 Surakarta, konsep SmartNetwork mengintegrasikan arsitektur jaringan fisik dengan otomatisasi software modern untuk menjamin konektivitas enterprise tanpa downtime.
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 0.6rem;">
+              <span class="tech-tag">✓ Networking</span>
+              <span class="tech-tag">✓ Connectivity</span>
+              <span class="tech-tag">✓ Security</span>
+              <span class="tech-tag">✓ Monitoring</span>
+              <span class="tech-tag">✓ Infrastructure</span>
+              <span class="tech-tag">✓ Troubleshooting</span>
+              <span class="tech-tag">✓ Automation</span>
+            </div>
+          </div>
+
+          <div class="pillar-grid">
+            <div class="pillar-card">
+              <div class="p-icon">⚡</div>
+              <h4>Fast & High Speed</h4>
+              <p>Pengoptimalan throughput gigabit tanpa hambatan bottleneck data.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="p-icon">🛡️</div>
+              <h4>Secure Shield</h4>
+              <p>Proteksi lalu lintas data dengan enkripsi VPN WireGuard & Firewall RAW.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="p-icon">🔄</div>
+              <h4>Reliable & Failover</h4>
+              <p>Skema redundansi dual-WAN ISP untuk menjamin uptime 99.9%.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="p-icon">📈</div>
+              <h4>Scalable Design</h4>
+              <p>Topologi modular yang siap berkembang seiring bertambahnya perangkat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SERVICES SECTION
+         ========================================================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">LAYANAN KAMI</div>
+          <h2>Solusi Jaringan SmartNetwork</h2>
+          <p class="subtitle">Layanan komprehensif penataan, konfigurasi, dan pemeliharaan teknologi jaringan komputer profesional.</p>
+        </div>
+
+        <div class="services-grid" id="services-grid">
+          <!-- Dynamic Services Loaded by services.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. TECHNOLOGY STACK
+         ========================================================================== -->
+    <section class="tech-section" id="tech">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">HARDWARE & PROTOCOLS</div>
+          <h2>Technology Stack TJKT</h2>
+          <p class="subtitle">Ekosistem perangkat keras, sistem operasi, dan protokol jaringan standar industri.</p>
+        </div>
+
+        <div class="tech-grid">
+          <div class="tech-badge-card">
+            <div class="t-icon">🔴</div>
+            <div class="t-name">MikroTik RouterOS</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🔷</div>
+            <div class="t-name">Cisco IOS</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🌐</div>
+            <div class="t-name">Ubiquiti UniFi</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🟢</div>
+            <div class="t-name">TP-Link Omada</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🐧</div>
+            <div class="t-name">Linux Debian / Ubuntu</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🪟</div>
+            <div class="t-name">Windows Server</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🏷️</div>
+            <div class="t-name">VLAN 802.1Q</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🔑</div>
+            <div class="t-name">DHCP & DNS Server</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🔒</div>
+            <div class="t-name">VPN WireGuard</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🛡️</div>
+            <div class="t-name">Firewall Filter</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">📶</div>
+            <div class="t-name">Wi-Fi 6 AX Standard</div>
+          </div>
+          <div class="tech-badge-card">
+            <div class="t-icon">🔌</div>
+            <div class="t-name">Cat6 / Cat6a UTP Cable</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. INTERACTIVE TOPOLOGY SECTION
+         ========================================================================== -->
+    <section class="topology-section" id="topology">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">INTERACTIVE MAP</div>
+          <h2>SmartNetwork Topology</h2>
+          <p class="subtitle">Klik pada setiap elemen node diagram jaringan di bawah ini untuk melihat peran, spesifikasi, dan fungsi detailnya.</p>
+        </div>
+
+        <div class="topology-wrapper">
+          <div class="topology-interactive-canvas">
+            <div class="topo-map-grid">
+              <!-- Row 1: Internet -->
+              <div class="topo-row">
+                <button class="node-btn" data-node="internet" aria-label="Pilih Node Internet Gateway">
+                  <div class="n-icon">🌐</div>
+                  <div class="n-name">INTERNET</div>
+                </button>
+              </div>
+
+              <!-- Connection Line -->
+              <div class="connection-line-vertical"></div>
+
+              <!-- Row 2: Router -->
+              <div class="topo-row">
+                <button class="node-btn selected" data-node="router" aria-label="Pilih Node Gateway Router">
+                  <div class="n-icon">📡</div>
+                  <div class="n-name">ROUTER</div>
+                </button>
+              </div>
+
+              <!-- Connection Line -->
+              <div class="connection-line-vertical"></div>
+
+              <!-- Row 3: Switch -->
+              <div class="topo-row">
+                <button class="node-btn" data-node="switch" aria-label="Pilih Node Core Managed Switch">
+                  <div class="n-icon">🔀</div>
+                  <div class="n-name">CORE SWITCH</div>
+                </button>
+              </div>
+
+              <!-- Connection Line -->
+              <div class="connection-line-vertical"></div>
+
+              <!-- Row 4: End Devices -->
+              <div class="topo-row">
+                <button class="node-btn" data-node="server" aria-label="Pilih Node Server Infrastructure">
+                  <div class="n-icon">🖥️</div>
+                  <div class="n-name">SERVER</div>
+                </button>
+                <button class="node-btn" data-node="ap" aria-label="Pilih Node Access Point">
+                  <div class="n-icon">📶</div>
+                  <div class="n-name">ACCESS POINT</div>
+                </button>
+                <button class="node-btn" data-node="pc" aria-label="Pilih Node Workstation PC">
+                  <div class="n-icon">💻</div>
+                  <div class="n-name">PC KLIEN</div>
+                </button>
+                <button class="node-btn" data-node="laptop" aria-label="Pilih Node Laptop Client">
+                  <div class="n-icon">📱</div>
+                  <div class="n-name">LAPTOP</div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Info Drawer -->
+          <div class="topology-info-panel">
+            <div>
+              <div class="topo-info-title">
+                <h3 id="topo-info-title">📡 Core Gateway Router</h3>
+              </div>
+              <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;" id="topo-info-type">Core Router (MikroTik / Cisco)</div>
+              <div style="margin-top: 1rem; font-size: 0.85rem;" class="status-indicator online" id="topo-info-status">ONLINE</div>
+            </div>
+            <div>
+              <h4 style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.35rem;">FUNGSI UTAMA:</h4>
+              <p style="font-size: 0.95rem; color: var(--text-primary); margin-bottom: 1rem;" id="topo-info-func">Menghubungkan jaringan lokal dengan internet, mengarahkan rute paket data (Routing), NAT, serta mengamankan gateway via Firewall.</p>
+              
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.85rem; font-family: var(--font-mono);">
+                <div>
+                  <span style="color: var(--text-muted);">IP Address:</span>
+                  <div id="topo-info-ip" style="color: var(--accent-cyan); font-weight: 700;">192.168.1.1 / 24</div>
+                </div>
+                <div>
+                  <span style="color: var(--text-muted);">Spesifikasi Hardware:</span>
+                  <div id="topo-info-specs" style="color: var(--text-primary);">CCR2004-16G-2S+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. NETWORK MONITORING SIMULATION
+         ========================================================================== -->
+    <section class="monitoring-section" id="monitoring">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">REAL-TIME TELEMETRY</div>
+          <h2>Network Monitoring Dashboard</h2>
+          <p class="subtitle">Simulasi telemetri performa dan lalu lintas data jaringan komputer secara langsung.</p>
+        </div>
+
+        <div class="dashboard-card">
+          <div class="dash-header">
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <span style="font-weight: 700; font-size: 1.1rem; color: var(--accent-cyan);">TELEMETRY DASHBOARD</span>
+              <span class="badge-tag" style="font-size: 0.65rem;">DEMO MONITORING</span>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="btn-stress-test" aria-label="Jalankan Tes Spike Trafik Simulasi">🚀 Test Spike Traffic</button>
+          </div>
+
+          <!-- Nodes Status Grid -->
+          <div class="dash-status-grid">
+            <div class="status-mini-card">
+              <span style="font-size: 0.9rem; font-weight: 600;">Internet</span>
+              <span class="status-indicator online">CONNECTED</span>
+            </div>
+            <div class="status-mini-card">
+              <span style="font-size: 0.9rem; font-weight: 600;">Router</span>
+              <span class="status-indicator online">ONLINE</span>
+            </div>
+            <div class="status-mini-card">
+              <span style="font-size: 0.9rem; font-weight: 600;">Core Switch</span>
+              <span class="status-indicator online">ONLINE</span>
+            </div>
+            <div class="status-mini-card">
+              <span style="font-size: 0.9rem; font-weight: 600;">Access Point</span>
+              <span class="status-indicator online">ONLINE</span>
+            </div>
+            <div class="status-mini-card">
+              <span style="font-size: 0.9rem; font-weight: 600;">Server</span>
+              <span class="status-indicator online">ONLINE</span>
+            </div>
+          </div>
+
+          <div class="metrics-row">
+            <div class="metrics-list">
+              <div class="metric-item">
+                <div class="metric-label">Ping Latency</div>
+                <div class="metric-val" id="metric-ping">15 ms</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-label">Download Speed</div>
+                <div class="metric-val" id="metric-download">850 Mbps</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-label">Upload Speed</div>
+                <div class="metric-val" id="metric-upload">420 Mbps</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-label">Packet Loss</div>
+                <div class="metric-val" id="metric-loss" style="color: var(--accent-emerald);">0.00 %</div>
+              </div>
+            </div>
+
+            <div class="chart-wrapper">
+              <div style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.5rem;">
+                LIVE TRAFFIC BANDWIDTH GRAPH (Mbps)
+              </div>
+              <canvas class="canvas-chart" id="monitoring-canvas" aria-label="Grafik Real-time Bandwidth Telemetri"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. NETWORK TOOLS SECTION
+         ========================================================================== -->
+    <section class="tools-section" id="tools">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">INTERACTIVE TOOLS</div>
+          <h2>Network Tools Hub</h2>
+          <p class="subtitle">Kumpulan kalkulator dan simulasi alat jaringan interaktif yang dapat langsung Anda jalankan.</p>
+        </div>
+
+        <div class="tools-tab-menu" role="tablist">
+          <button class="tool-tab-btn active" data-tool="ip-calc" role="tab" aria-selected="true">1. IP & Subnet Calculator</button>
+          <button class="tool-tab-btn" data-tool="ping-sim" role="tab" aria-selected="false">2. Ping Simulator</button>
+          <button class="tool-tab-btn" data-tool="bandwidth-calc" role="tab" aria-selected="false">3. Bandwidth Estimator</button>
+          <button class="tool-tab-btn" data-tool="net-info" role="tab" aria-selected="false">4. My Network Info</button>
+        </div>
+
+        <div class="tool-card-body">
+          <!-- Tool Panel 1: IP & Subnet Calc -->
+          <div class="tool-panel" id="tool-panel-ip-calc" role="tabpanel">
+            <div class="tool-grid-inputs">
+              <div>
+                <div class="form-group">
+                  <label for="calc-ip">IP Address</label>
+                  <input type="text" class="form-control" id="calc-ip" value="192.168.1.50" placeholder="Contoh: 192.168.1.50">
+                </div>
+                <div class="form-group">
+                  <label for="calc-cidr">Subnet Prefix (CIDR / Netmask)</label>
+                  <select class="form-control" id="calc-cidr" aria-label="Pilih Prefiks CIDR Subnet">
+                    <option value="8">/8 (255.0.0.0)</option>
+                    <option value="16">/16 (255.255.0.0)</option>
+                    <option value="24" selected>/24 (255.255.255.0)</option>
+                    <option value="25">/25 (255.255.255.128)</option>
+                    <option value="26">/26 (255.255.255.192)</option>
+                    <option value="27">/27 (255.255.255.224)</option>
+                    <option value="28">/28 (255.255.255.240)</option>
+                    <option value="29">/29 (255.255.255.248)</option>
+                    <option value="30">/30 (255.255.255.252)</option>
+                  </select>
+                </div>
+                <button class="btn btn-primary" id="btn-calc-ip" style="width: 100%;">Hitung IP & Subnet ⚡</button>
+              </div>
+
+              <div class="output-box">
+                <div class="output-row">
+                  <span class="output-key">Network Address:</span>
+                  <span class="output-val" id="out-net-addr">192.168.1.0</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">Broadcast Address:</span>
+                  <span class="output-val" id="out-bcast-addr">192.168.1.255</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">First Usable Host:</span>
+                  <span class="output-val" id="out-first-host">192.168.1.1</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">Last Usable Host:</span>
+                  <span class="output-val" id="out-last-host">192.168.1.254</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">Total Usable Hosts:</span>
+                  <span class="output-val" id="out-total-hosts">254</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">Subnet Mask:</span>
+                  <span class="output-val" id="out-subnet-mask">255.255.255.0</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">IP Class:</span>
+                  <span class="output-val" id="out-ip-class">Class C (Local/LAN)</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">Binary Subnet:</span>
+                  <span class="output-val" id="out-binary-mask" style="font-size: 0.75rem;">11111111.11111111.11111111.00000000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tool Panel 2: Ping Simulator -->
+          <div class="tool-panel" id="tool-panel-ping-sim" role="tabpanel" style="display: none;">
+            <div class="tool-grid-inputs">
+              <div>
+                <div class="form-group">
+                  <label for="ping-host">Target Host / IP Address</label>
+                  <input type="text" class="form-control" id="ping-host" value="8.8.8.8" placeholder="Contoh: 8.8.8.8 atau gateway.local">
+                </div>
+                <button class="btn btn-primary" id="btn-run-ping" style="width: 100%;">Jalankan Simulasi Ping 📡</button>
+              </div>
+
+              <div class="output-box" id="ping-terminal" style="height: 220px; overflow-y: auto;" aria-live="polite">
+                <span style="color: var(--text-muted);">Klik tombol di atas untuk memulai tes ICMP Ping simulator...</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tool Panel 3: Bandwidth Calculator -->
+          <div class="tool-panel" id="tool-panel-bandwidth-calc" role="tabpanel" style="display: none;">
+            <div class="tool-grid-inputs">
+              <div>
+                <div class="form-group">
+                  <label for="bw-size">Ukuran File</label>
+                  <div style="display: flex; gap: 0.5rem;">
+                    <input type="number" class="form-control" id="bw-size" value="2" placeholder="File size">
+                    <select class="form-control" id="bw-unit" style="width: 100px;" aria-label="Satuan Ukuran File">
+                      <option value="GB">GB</option>
+                      <option value="MB">MB</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="bw-speed">Kecepatan Internet (Mbps)</label>
+                  <input type="number" class="form-control" id="bw-speed" value="100" placeholder="Speed in Mbps">
+                </div>
+                <button class="btn btn-primary" id="btn-calc-bw" style="width: 100%;">Hitung Estimasi Waktu ⏱️</button>
+              </div>
+
+              <div class="output-box">
+                <div class="output-row">
+                  <span class="output-key">Estimasi Waktu Unduh:</span>
+                  <span class="output-val" id="out-download-time">2 Menit 44 Detik</span>
+                </div>
+                <div class="output-row">
+                  <span class="output-key">Kecepatan Transfer Real (MB/s):</span>
+                  <span class="output-val" id="out-eff-speed">12.50 MB/s</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tool Panel 4: Network Info -->
+          <div class="tool-panel" id="tool-panel-net-info" role="tabpanel" style="display: none;">
+            <div class="output-box">
+              <div class="output-row">
+                <span class="output-key">Status Koneksi Browser:</span>
+                <span class="output-val" id="info-online-status">ONLINE</span>
+              </div>
+              <div class="output-row">
+                <span class="output-key">User-Agent Perangkat:</span>
+                <span class="output-val" id="info-user-agent" style="font-size: 0.75rem;">Loading...</span>
+              </div>
+              <div class="output-row">
+                <span class="output-key">Resolusi Layar:</span>
+                <span class="output-val" id="info-screen-res">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. PORTFOLIO PROJECTS SECTION
+         ========================================================================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">PORTOFOLIO IMPLEMENTASI</div>
+          <h2>Network Projects</h2>
+          <p class="subtitle">Studi kasus nyata proyek instalasi dan optimasi jaringan komputer TJKT.</p>
+        </div>
+
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="All" aria-label="Filter Semua Proyek">All</button>
+          <button class="filter-btn" data-filter="LAN" aria-label="Filter Proyek LAN">LAN</button>
+          <button class="filter-btn" data-filter="WiFi" aria-label="Filter Proyek WiFi">WiFi</button>
+          <button class="filter-btn" data-filter="Server" aria-label="Filter Proyek Server">Server</button>
+          <button class="filter-btn" data-filter="Security" aria-label="Filter Proyek Security">Security</button>
+          <button class="filter-btn" data-filter="MikroTik" aria-label="Filter Proyek MikroTik">MikroTik</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Dynamic Projects loaded by projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. LEARNING CENTER & TUTORIALS
+         ========================================================================== -->
+    <section class="tutorial-section" id="tutorials">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">EDUKASI TJKT</div>
+          <h2>Learning Center TJKT</h2>
+          <p class="subtitle">Artikel dan panduan praktis konfigurasi jaringan untuk siswa dan teknisi junior.</p>
+        </div>
+
+        <div class="search-tutorial-box">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input type="text" class="form-control" id="search-tutorial-input" placeholder="Cari artikel tutorial (misal: MikroTik, VLAN, Subnetting)..." aria-label="Cari Artikel Tutorial Jaringan">
+        </div>
+
+        <div class="tutorials-grid" id="tutorials-grid">
+          <!-- Dynamic Tutorials loaded by tutorials.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         10. NETWORK PLANNING CALCULATOR SECTION
+         ========================================================================== -->
+    <section class="planning-section" id="planning">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">AUTOMATED PLANNING</div>
+          <h2>Network Planning Calculator</h2>
+          <p class="subtitle">Hitung estimasi kebutuhan perangkat, port switch, subnetting, dan bandwidth secara otomatis.</p>
+        </div>
+
+        <div class="planning-grid glass-card">
+          <div>
+            <h3 style="margin-bottom: 1.25rem;">Masukkan Jumlah Perangkat Jaringan:</h3>
+            
+            <div class="form-group">
+              <label for="plan-pc">Jumlah PC Desktop Workstation</label>
+              <input type="number" class="form-control" id="plan-pc" value="25" min="0">
+            </div>
+            <div class="form-group">
+              <label for="plan-laptop">Jumlah Laptop Wi-Fi</label>
+              <input type="number" class="form-control" id="plan-laptop" value="15" min="0">
+            </div>
+            <div class="form-group">
+              <label for="plan-cctv">Jumlah IP Camera CCTV</label>
+              <input type="number" class="form-control" id="plan-cctv" value="8" min="0">
+            </div>
+            <div class="form-group">
+              <label for="plan-ap">Jumlah Access Point</label>
+              <input type="number" class="form-control" id="plan-ap" value="4" min="0">
+            </div>
+            <div class="form-group">
+              <label for="plan-server">Jumlah Server Hardware</label>
+              <input type="number" class="form-control" id="plan-server" value="2" min="0">
+            </div>
+
+            <button class="btn btn-primary" id="btn-calc-plan" style="width: 100%; margin-top: 1rem;">Kalkulasi Rekomendasi Jaringan 🧮</button>
+          </div>
+
+          <div class="output-box" style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">Hasil Rekomendasi Perancangan:</h3>
+
+              <div class="output-row">
+                <span class="output-key">Total Perangkat Terhubung:</span>
+                <span class="output-val" id="plan-total-dev">54 Perangkat</span>
+              </div>
+              <div class="output-row">
+                <span class="output-key">Estimasi Port Switch dibutuh (+25% Margin):</span>
+                <span class="output-val" id="plan-switch-ports">49 Ports</span>
+              </div>
+              <div class="output-row">
+                <span class="output-key">Rekomendasi Subnet IP:</span>
+                <span class="output-val" id="plan-subnet-rec">/24 (254 Usable IPs)</span>
+              </div>
+              <div class="output-row">
+                <span class="output-key">Rekomendasi Perangkat Switch:</span>
+                <span class="output-val" id="plan-switch-rec" style="font-size: 0.85rem;">1x 48-Port Managed PoE+ Switch</span>
+              </div>
+              <div class="output-row">
+                <span class="output-key">Estimasi Kebutuhan Bandwidth ISP:</span>
+                <span class="output-val" id="plan-bw-rec" style="font-size: 0.85rem;">300 Mbps Dedicated Fiber ISP</span>
+              </div>
+            </div>
+
+            <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 0.5rem;">
+              *Perhitungan mencakup buffer pertumbuhan perangkat sebesar 25% dan estimasi port PoE untuk Access Point & CCTV.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         11. WHY SMARTNETWORK SECTION
+         ========================================================================== -->
+    <section class="why-section" id="why">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">KEUNGGULAN KAMI</div>
+          <h2>Why SmartNetwork TJKT?</h2>
+          <p class="subtitle">Alasan mengapa solusi SmartNetwork menjadi standar konektivitas terpercaya.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="glass-card">
+            <div style="font-size: 1.5rem; color: var(--accent-cyan); margin-bottom: 0.75rem; font-family: var(--font-mono); font-weight: 800;">01</div>
+            <h3>Reliable Connectivity</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Jaminan redundansi dual-ISP failover dan konfigurasi bebas loop STP untuk uptime jaringan maksimal.</p>
+          </div>
+          <div class="glass-card">
+            <div style="font-size: 1.5rem; color: var(--accent-cyan); margin-bottom: 0.75rem; font-family: var(--font-mono); font-weight: 800;">02</div>
+            <h3>Secure Infrastructure</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Perlindungan berlapis dari layer 2 hingga layer 7 dengan enkripsi VPN WireGuard dan Port Security.</p>
+          </div>
+          <div class="glass-card">
+            <div style="font-size: 1.5rem; color: var(--accent-cyan); margin-bottom: 0.75rem; font-family: var(--font-mono); font-weight: 800;">03</div>
+            <h3>Easy Monitoring</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Kemudahan pemantauan telemetri latensi, trafik data, dan status simpul jaringan secara terpusat.</p>
+          </div>
+          <div class="glass-card">
+            <div style="font-size: 1.5rem; color: var(--accent-cyan); margin-bottom: 0.75rem; font-family: var(--font-mono); font-weight: 800;">04</div>
+            <h3>Scalable Network</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Arsitektur jaringan modular yang mempermudah penambahan gedung atau perangkat di masa depan.</p>
+          </div>
+          <div class="glass-card">
+            <div style="font-size: 1.5rem; color: var(--accent-cyan); margin-bottom: 0.75rem; font-family: var(--font-mono); font-weight: 800;">05</div>
+            <h3>Efficient Management</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Manajemen pembagian bandwidth otomatis (QoS) sehingga trafik penting tidak terganggu unduhan besar.</p>
+          </div>
+          <div class="glass-card">
+            <div style="font-size: 1.5rem; color: var(--accent-cyan); margin-bottom: 0.75rem; font-family: var(--font-mono); font-weight: 800;">06</div>
+            <h3>Professional Configuration</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">Hasil racikan konfigurasi berstandar kompetensi siswa TJKT profesional yang telah teruji.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         12. WORKFLOW TIMELINE SECTION
+         ========================================================================== -->
+    <section class="workflow-section" id="workflow">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">ALUR IMPLEMENTASI</div>
+          <h2>Workflow SmartNetwork</h2>
+          <p class="subtitle">Tahapan langkah sistematis dari analisis awal hingga pemeliharaan berkelanjutan.</p>
+        </div>
+
+        <div class="timeline-steps">
+          <div class="glass-card timeline-step-card">
+            <div class="step-num">01</div>
+            <h4>Analisis Kebutuhan</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.35rem;">Survei denah & audit beban trafik.</p>
+          </div>
+          <div class="glass-card timeline-step-card">
+            <div class="step-num">02</div>
+            <h4>Perancangan Topologi</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.35rem;">Desain skema VLAN & Subnet IP.</p>
+          </div>
+          <div class="glass-card timeline-step-card">
+            <div class="step-num">03</div>
+            <h4>Pemilihan Perangkat</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.35rem;">Seleksi spesifikasi Router/Switch.</p>
+          </div>
+          <div class="glass-card timeline-step-card">
+            <div class="step-num">04</div>
+            <h4>Konfigurasi System</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.35rem;">Penataan kabel & scripting OS.</p>
+          </div>
+          <div class="glass-card timeline-step-card">
+            <div class="step-num">05</div>
+            <h4>Testing & Quality Audit</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.35rem;">Uji stres beban & ping latency.</p>
+          </div>
+          <div class="glass-card timeline-step-card">
+            <div class="step-num">06</div>
+            <h4>Monitoring & Backup</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.35rem;">Aktivasi pemantauan 24/7.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         13. FAQ SECTION
+         ========================================================================== -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">FREQUENTLY ASKED QUESTIONS</div>
+          <h2>Pertanyaan yang Sering Diajukan</h2>
+          <p class="subtitle">Temukan jawaban cepat seputar jaringan komputer dan layanan SmartNetwork TJKT.</p>
+        </div>
+
+        <div class="faq-accordion-wrapper" id="faq-accordion-container">
+          <!-- Dynamic FAQ Loaded by faq.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         14. CONTACT SECTION
+         ========================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div>
+            <div class="badge-tag">HUBUNGI KAMI</div>
+            <h2 style="font-size: 2.2rem; margin: 0.75rem 0 1rem 0;">Connect With SmartNetwork TJKT</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+              Punya pertanyaan mengenai perencanaan jaringan, konsultasi konfigurasi MikroTik, atau butuh bantuan troubleshooting? Kirimkan pesan Anda melalui formulir di samping.
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem;">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 44px; height: 44px; border-radius: var(--radius-md); background: rgba(0, 240, 255, 0.1); color: var(--accent-cyan); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">📍</div>
+                <div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">LOKASI:</div>
+                  <div style="font-weight: 600;">SMKN 2 Surakarta</div>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 44px; height: 44px; border-radius: var(--radius-md); background: rgba(0, 240, 255, 0.1); color: var(--accent-cyan); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">📧</div>
+                <div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">EMAIL OFFICIAL:</div>
+                  <div style="font-weight: 600;">aldhan@gmail.com</div>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 44px; height: 44px; border-radius: var(--radius-md); background: rgba(0, 240, 255, 0.1); color: var(--accent-cyan); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">📱</div>
+                <div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">WHATSAPP HOTLINE:</div>
+                  <div style="font-weight: 600;">+62 812-3456-7890 (Placeholder)</div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn-secondary" id="btn-direct-wa" style="width: 100%;" aria-label="Buka Chat WhatsApp Direct">
+              💬 Chat Langsung via WhatsApp
+            </button>
+          </div>
+
+          <!-- Interactive Form -->
+          <div class="glass-card">
+            <form id="contact-form" aria-label="Formulir Kontak SmartNetwork TJKT">
+              <div class="form-group">
+                <label for="contact-name">Nama Lengkap *</label>
+                <input type="text" class="form-control" id="contact-name" placeholder="Masukkan nama Anda" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Aktif *</label>
+                <input type="email" class="form-control" id="contact-email" placeholder="aldhan@gmail.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-wa">Nomor WhatsApp *</label>
+                <input type="tel" class="form-control" id="contact-wa" placeholder="0812xxxxxxxx" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-service">Jenis Kebutuhan Jaringan</label>
+                <select class="form-control" id="contact-service" aria-label="Pilih Jenis Kebutuhan Jaringan">
+                  <option value="Instalasi LAN">Instalasi LAN & Structured Cable</option>
+                  <option value="Konfigurasi MikroTik / Cisco">Konfigurasi MikroTik / Cisco</option>
+                  <option value="Network Troubleshooting">Network Troubleshooting & Audit</option>
+                  <option value="Konsultasi Perancangan Topologi">Konsultasi Perancangan Topologi</option>
+                  <option value="Belajar Networking TJKT">Belajar Networking TJKT</option>
+                  <option value="Lainnya">Lainnya</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Pesan / Penjelasan Kebutuhan *</label>
+                <textarea class="form-control" id="contact-message" rows="4" placeholder="Tuliskan detail pertanyaan atau kebutuhan jaringan Anda..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan Sekarang 🚀</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#home" class="logo" style="margin-bottom: 1rem;" aria-label="SmartNetwork TJKT Footer Home">
+            <div class="logo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <span>SmartNetwork</span>
+            <span class="logo-badge">TJKT</span>
+          </a>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; max-width: 320px;">
+            "Connecting Technology, Building the Future"
+          </p>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.75rem;">
+            SmartNetwork TJKT • SMKN 2 Surakarta<br>
+            Email Contact: <a href="mailto:aldhan@gmail.com" style="color: var(--accent-cyan);">aldhan@gmail.com</a>
+          </p>
+        </div>
+
+        <div>
+          <h4 style="margin-bottom: 1rem; color: var(--accent-cyan);">Navigasi Cepat</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">Tentang SmartNetwork</a></li>
+            <li><a href="#services" class="nav-link">Layanan Jaringan</a></li>
+            <li><a href="#tech" class="nav-link">Teknologi Stack</a></li>
+            <li><a href="#projects" class="nav-link">Portofolio Proyek</a></li>
+            <li><a href="#tutorials" class="nav-link">Learning Center</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 style="margin-bottom: 1rem; color: var(--accent-cyan);">Fitur Interaktif</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <li><a href="#topology" class="nav-link">Topology Visualizer</a></li>
+            <li><a href="#monitoring" class="nav-link">Monitoring Telemetry</a></li>
+            <li><a href="#tools" class="nav-link">IP Subnet Calculator</a></li>
+            <li><a href="#planning" class="nav-link">Planning Calculator</a></li>
+            <li><a href="#faq" class="nav-link">Pusat FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 style="margin-bottom: 1rem; color: var(--accent-cyan);">Keahlian TJKT</h4>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+            <span class="tech-tag">MikroTik ROS</span>
+            <span class="tech-tag">Cisco IOS</span>
+            <span class="tech-tag">Linux Debian</span>
+            <span class="tech-tag">VLAN Trunking</span>
+            <span class="tech-tag">WireGuard</span>
+            <span class="tech-tag">Subnetting</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 SmartNetwork TJKT • SMKN 2 Surakarta. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" aria-label="Kembali ke Atas Halaman" title="Kembali ke Atas">↑</button>
+
+  <!-- Global Modal Overlay -->
+  <div class="modal-overlay" id="global-modal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Tutup Modal Dialog">✕</button>
+      <div id="modal-content-body">
+        <!-- Content inserted dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Modal Overlay -->
+  <div class="modal-overlay" id="login-modal" role="dialog" aria-modal="true">
+    <div class="modal-box login-modal-box">
+      <button class="modal-close-btn" id="login-modal-close" aria-label="Tutup Login Modal">✕</button>
+      <div class="login-header">
+        <div class="login-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3 style="font-size: 1.4rem;">Connect to SmartNetwork</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.35rem;">SmartNetwork TJKT Demo Authentication</p>
+      </div>
+
+      <form id="login-demo-form">
+        <div class="form-group">
+          <label for="login-email">Email Address</label>
+          <input type="email" class="form-control" id="login-email" placeholder="aldhan@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" class="form-control" id="login-password" placeholder="••••••••" required>
+        </div>
+
+        <div class="form-options">
+          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+            <input type="checkbox" id="login-remember"> Remember me
+          </label>
+          <a href="#" class="forgot-pass-link" id="btn-forgot-password">Lupa password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="btn-submit-login" style="width: 100%;">
+          <span>Login ➔</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Entry -->
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
